@@ -1,0 +1,18 @@
+body {
+    background-color: lightblue;
+}
+main {
+    display: flex;
+    height: calc(100vh - 85px);
+}
+
+#list{
+    background-color: beige;
+    flex: 1;
+}
+
+#form {
+    background-color: aqua;
+    flex: 1;
+}
+

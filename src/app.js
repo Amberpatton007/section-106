@@ -1,15 +1,10 @@
-function start(){
-    console.log("App started");
-    stop();
-}
 
-function stop(){
-    console.log("App stopped");
-}
 
 function init(){
     console.log("App initialized");
-    start();
+    //load data
+
+    //hook events
 }
 
 window.onload = init; // this function is called when the window loads. it initializes the application by calling the init function
